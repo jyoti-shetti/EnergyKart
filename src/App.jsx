@@ -13,6 +13,7 @@ import AIMatchmaking from './pages/AIMatchmaking';
 import EnergyWallet from './pages/EnergyWallet';
 import UPITransactions from './pages/UPITransactions';
 import UsageAnalytics from './pages/UsageAnalytics';
+import MarketIntelligence from './pages/MarketIntelligence';
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
                 <Route path="/wallet" element={<EnergyWallet />} />
                 <Route path="/upi" element={<UPITransactions />} />
                 <Route path="/analytics" element={<UsageAnalytics />} />
+                <Route path="/market-intelligence" element={<MarketIntelligence />} />
               </Routes>
             </main>
           </div>

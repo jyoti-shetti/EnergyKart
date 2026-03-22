@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import {
   Sun, Zap, BarChart2, Building2, ShoppingCart,
-  Activity, Map, ChevronLeft, ChevronRight, Leaf
+  Activity, Map, ChevronLeft, ChevronRight, Leaf, TrendingUp
 } from 'lucide-react';
 
 const navItems = [
@@ -13,6 +13,7 @@ const navItems = [
   { path: '/marketplace', icon: ShoppingCart, label: 'Energy Marketplace' },
   { path: '/smartmeter', icon: Activity, label: 'Smart Meter' },
   { path: '/matchmaking', icon: Map, label: 'AI Matchmaking' },
+  { path: '/market-intelligence', icon: TrendingUp, label: 'Market Intelligence' },
 ];
 
 export default function Sidebar() {
